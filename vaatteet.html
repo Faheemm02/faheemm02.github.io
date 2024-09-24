@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="fi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abdiexpress - Vaatteet</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 15px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #333;
+        }
+
+        .product-images {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 20px;
+        }
+
+        .product-images img {
+            width: 200px;
+            height: auto;
+            border-radius: 10px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        header img {
+            float: right;
+            margin-right: 25px;
+            max-width: 150px;
+        }
+
+        /* Mobiilinäytöt (max-width: 768px) */
+        @media (max-width: 768px) {
+            nav ul li {
+                display: block;
+                text-align: left;
+                margin-right: 0;
+                margin-bottom: 10px;
+            }
+
+            header img {
+                float: none;
+                display: block;
+                margin: 0 auto 20px;
+            }
+
+            image {
+                width: 100%;
+                height: auto;
+            }
+        }
+    </style>
+</head>
+
+<body style="background-color: rgb(233, 207, 92);">
+    <img src="Kappaleen teksti.jpg" alt="Abdiexpress logo"style="float:right;height: 150px; width=150px;">
+    
+    
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html"><b><u>Etusivu</u></b></a></li>
+                <li><a href="vaatteet.html"><b><u>Vaatteet</u></b></a></li>
+                <li><a href="yhteystiedot.html"><b><u>Yhteystiedot</u></b></a></li>
+                <li><a href="aukioloajat.html"><b><u>Aukioloajat</u></b></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <h1>Vaatteet</h1>
+    <p>Tutustu laadukkaisiin ja edullisiin vaatteisiimme.</p>
+
+    <div class="product-images">
+        <img src="tt.webp" alt="Tuote 1">10€
+        <img src="ttt.webp" alt="Tuote 2">15€
+        <img src="tttt.webp" alt="Tuote 3">25€
+        <img src="uuu.jpg" alt="Malli">5€
+        <img src="uu.jpg" alt="Malli">8€
+        <img src="uuuu.jpg" alt="Malli">15€
+        <img src="h.jpg" alt="Malli">15€
+        <img src="hh.jpg" alt="Malli">15€
+        <img src="hhh.jpg" alt="Malli">20€
+        <img src="hhhh.jpg" alt="Malli">20€
+
+
+
+    </div>
+</body>
+
+</html>
